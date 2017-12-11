@@ -34,6 +34,7 @@
   <properties>
     <!-- Name to display by the Extension Manager -->
     <xwiki.extension.name>Glyphicons Icon Theme</xwiki.extension.name>
+    <xwiki.extension.category>icontheme</xwiki.extension.category>
   </properties>
   <dependencies>
     <dependency>
