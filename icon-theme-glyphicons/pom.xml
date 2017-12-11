@@ -41,7 +41,7 @@
       <artifactId>bootstrap</artifactId>
       <!-- Min ver corresponding to XWiki 6.2 until the max ver of 3.x Bootstrap -->
       <!-- Glyphicons license is available only for Bootstrap 3.x, not 4.x -->
-      <version>[3.2.0,3.3.7]</version>
+      <version>[3.2.0,4.0.0-alpha)</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
