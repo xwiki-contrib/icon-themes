@@ -122,7 +122,7 @@ info = info
 eye = remove_red_eye
 female = female
 male = male
-film = film
+film = local_movies
 flag = flag
 search = search
 search-plus = zoom_in
@@ -288,7 +288,7 @@ exclamation = priority_high
 eye = remove_red_eye
 feed = rss_feed
 female = female
-film = film
+film = local_movies
 find = search
 flag = flag
 folder = folder
@@ -392,8 +392,7 @@ world = public
 wrench = build
 zoom = search
 zoom_in = zoom_in
-zoom_out = zoom_out
-</content>
+zoom_out = zoom_out</content>
   <object>
     <name>IconThemes.Material</name>
     <number>0</number>
