@@ -30,6 +30,11 @@
   <artifactId>icon-theme-glyphicons</artifactId>
   <packaging>xar</packaging>
   <name>Icon Themes - Glyphicons</name>
+  <description>Provides Glyphicons icon set as an Icon Theme</description>
+  <properties>
+    <!-- Name to display by the Extension Manager -->
+    <xwiki.extension.name>Glyphicons Icon Theme</xwiki.extension.name>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.webjars</groupId>

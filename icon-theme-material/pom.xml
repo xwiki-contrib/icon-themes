@@ -30,4 +30,9 @@
   <artifactId>icon-theme-material</artifactId>
   <packaging>xar</packaging>
   <name>Icon Themes - Material</name>
+  <description>Provides Material icon set as an Icon Theme</description>
+  <properties>
+    <!-- Name to display by the Extension Manager -->
+    <xwiki.extension.name>Material Icon Theme</xwiki.extension.name>
+  </properties>
 </project>
