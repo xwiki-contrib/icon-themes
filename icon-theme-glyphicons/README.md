@@ -2,6 +2,8 @@
 
 * [Icon Set:  Glyphicons Halflings](https://getbootstrap.com/docs/3.3/components/)
 * Type: Font
+* Version: 1.9
+* Number of icons: 265
 * [Documentation & Download](http://extensions.xwiki.org/xwiki/bin/view/Extension/Glyphicons%20Icon%20Theme/)
 * [Issue Tracker](http://jira.xwiki.org/browse/ICONTHEMES/component/14843)
 * Preview: 
