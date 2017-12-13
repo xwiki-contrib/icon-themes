@@ -2,6 +2,8 @@
 
 * [Icon Set: Material Design Icons](https://material.io/icons/)
 * Type: Font
+* Version: 3.0.1
+* Number of icons: 884
 * [Documentation & Download](http://extensions.xwiki.org/xwiki/bin/view/Extension/Material%20Icon%20Theme/)
 * [Issue Tracker](http://jira.xwiki.org/browse/ICONTHEMES/component/14844)
 * Preview: 
