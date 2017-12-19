@@ -41,7 +41,7 @@
   <hidden>true</hidden>
   <content>## General settings
 xwiki.iconset.type = font
-xwiki.iconset.ssx = IconThemes.FontAwesome.Font
+xwiki.iconset.jsx = IconThemes.FontAwesome.SVGJS
 xwiki.iconset.render.wiki = {{html clean="false"}}&lt;span class="fas fa-$icon"&gt;&lt;/span&gt;{{/html}}
 xwiki.iconset.render.html = &lt;span class="fas fa-$icon"&gt;&lt;/span&gt;
 
@@ -392,12 +392,13 @@ world = globe
 wrench = wrench
 zoom = search
 zoom_in = search-plus
-zoom_out = search-minus</content>
+zoom_out = search-minus
+</content>
   <object>
-    <name>IconThemes.FontAwesome.Font</name>
+    <name>IconThemes.FontAwesome.SVGJS</name>
     <number>0</number>
     <className>IconThemesCode.IconThemeClass</className>
-    <guid>c9c93e83-1c37-4976-b18a-0b980f367353</guid>
+    <guid>2f4b8c8b-9f63-44d1-9495-2879a625bd0b</guid>
     <class>
       <name>IconThemesCode.IconThemeClass</name>
       <customClass/>
@@ -422,16 +423,16 @@ zoom_out = search-minus</content>
       </name>
     </class>
     <property>
-      <name>Font Awesome Font</name>
+      <name>Font Awesome SVG JS</name>
     </property>
   </object>
   <object>
-    <name>IconThemes.FontAwesome.Font</name>
+    <name>IconThemes.FontAwesome.SVGJS</name>
     <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>43fa8f6d-5a70-477a-95dc-f08a095529b3</guid>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>1cbe67e3-88f8-4ce0-8c44-a57fa4d097d6</guid>
     <class>
-      <name>XWiki.StyleSheetExtension</name>
+      <name>XWiki.JavaScriptExtension</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -467,22 +468,6 @@ zoom_out = search-minus</content>
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
-      <contentType>
-        <cache>0</cache>
-        <disabled>0</disabled>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>contentType</name>
-        <number>6</number>
-        <prettyName>Content Type</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators>|, </separators>
-        <size>1</size>
-        <unmodifiable>0</unmodifiable>
-        <values>CSS|LESS</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -523,16 +508,13 @@ zoom_out = search-minus</content>
       <cache>long</cache>
     </property>
     <property>
-      <code>@import "https://use.fontawesome.com/releases/v5.0.1/css/all.css"</code>
+      <code>require(['https://use.fontawesome.com/releases/v5.0.1/js/all.js']);</code>
     </property>
     <property>
-      <contentType>CSS</contentType>
+      <name>Font Awesome JS</name>
     </property>
     <property>
-      <name>Font Awesome CSS</name>
-    </property>
-    <property>
-      <parse>1</parse>
+      <parse>0</parse>
     </property>
     <property>
       <use>onDemand</use>
