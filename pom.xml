@@ -68,5 +68,6 @@
   <modules>
     <module>icon-theme-glyphicons</module>
     <module>icon-theme-material</module>
+    <module>icon-theme-fontawesome</module>
   </modules>
 </project>
