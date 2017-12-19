@@ -4,8 +4,11 @@
 * Type: Mixed
 * Version: 5.0.1
 * Number of icons: 464
-* [Documentation & Download](http://extensions.xwiki.org/)
+* [Documentation & Download](http://extensions.xwiki.org/xwiki/bin/view/Extension/Font%20Awesome%205%20Icon%20Theme/)
 * [Issue Tracker](https://jira.xwiki.org/browse/ICONTHEMES/component/14845)
+* Preview: 
+
+![Font Awesome 5 Set](http://extensions.xwiki.org/xwiki/bin/download/Extension/Font%20Awesome%205%20Icon%20Theme/WebHome/fontawesomeSet.png?width=550)
 
 ## Notes
 
