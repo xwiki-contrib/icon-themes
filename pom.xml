@@ -46,7 +46,7 @@
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/icon-themes.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/icon-themes.git</developerConnection>
-    <url>https://github.com/xwiki-contrib/icon-themes</url>
+    <url>https://github.com/xwiki-contrib/icon-themes/tree/master</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
