@@ -35,5 +35,6 @@
     <!-- Name to display by the Extension Manager -->
     <xwiki.extension.name>Font Awesome 5 Icon Theme</xwiki.extension.name>
     <xwiki.extension.category>icontheme</xwiki.extension.category>
+    <xwiki.issueManagement.jira.id>ICONTHEMES/component/14845</xwiki.issueManagement.jira.id>
   </properties>
 </project>

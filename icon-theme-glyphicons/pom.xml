@@ -35,6 +35,7 @@
     <!-- Name to display by the Extension Manager -->
     <xwiki.extension.name>Glyphicons Icon Theme</xwiki.extension.name>
     <xwiki.extension.category>icontheme</xwiki.extension.category>
+    <xwiki.issueManagement.jira.id>ICONTHEMES/component/14843</xwiki.issueManagement.jira.id>
   </properties>
   <dependencies>
     <dependency>
