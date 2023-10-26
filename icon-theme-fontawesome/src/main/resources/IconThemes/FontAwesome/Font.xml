@@ -42,8 +42,8 @@
   <content>## General settings
 xwiki.iconset.type = font
 xwiki.iconset.ssx = IconThemes.FontAwesome.Font
-xwiki.iconset.render.wiki = {{html clean="false"}}&lt;span class="fas fa-$icon"&gt;&lt;/span&gt;{{/html}}
-xwiki.iconset.render.html = &lt;span class="fas fa-$icon"&gt;&lt;/span&gt;
+xwiki.iconset.render.wiki = {{html clean="false"}}&lt;span class="fas fa-$icon" aria-hidden='true'&gt;&lt;/span&gt;{{/html}}
+xwiki.iconset.render.html = &lt;span class="fas fa-$icon" aria-hidden='true'&gt;&lt;/span&gt;
 
 ## XWiki Icon Set (see: http://design.xwiki.org/xwiki/bin/view/Proposal/XWiki+Icon+Set)
 home = home
